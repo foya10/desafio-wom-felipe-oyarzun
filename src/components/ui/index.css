@@ -1,0 +1,45 @@
+
+body{
+    padding-top: 2em;;
+}
+
+.card-grid{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    align-content: center;
+    border:1px solid grey;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom:10px;
+    margin-right:10px;
+}
+.card p{
+    align-content: center;
+}
+.card img{
+    max-height: 120px;
+}
+
+.breed-list .row{
+    border: 1px solid gray;
+    padding: 1em;;
+    margin-bottom:5px;
+    margin-left:1em;
+}
+.breed-item label{
+    margin-top: 0.4em;;
+}
+
+.container-loading{
+    padding-top: 10em;;
+    text-align: center;
+}
+
+.initial-message{
+    padding:10em;
+    
+    
+}
